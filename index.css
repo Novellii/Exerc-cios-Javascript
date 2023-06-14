@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(29, 0, 0), rgb(59, 0, 0));
+}
+
+button {
+    height: 150px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: rgb(192, 94, 48);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+button:hover {
+    background-color: slateblue;
+}
